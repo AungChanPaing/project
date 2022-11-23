@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krispy Dounts Shop | Shop </title>
+    <link rel="icon" href="logo.svg">
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/bbdccb4e58.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-light fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="logo.svg"> Krispy Dounts
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="toggler-icon"><i class="fas fa-bars" style="font-size: 25px"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav" style="justify-content: flex-end;">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#foodstore" class="nav-link">Store</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                    <i class="fas fa-shopping-cart" style="font-size: 25px"></i>
+                    <span class="badge bg-primary rounded-pill" style="font-style: 14px;">0</span>
+                </a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row background-image" style="align-items: center;">
+         <div class="banner text-center">
+             <h2>Welcome To Krispy!</h2>
+             <br>
+             <a href="#foodstore" class="btn btn-outline-primary">Explore More</a>
+         </div>
+        </div>
+    </div>
+
+    <div style="background-color: #C0D5FE; padding-bottom: 30px;" id="about">
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-12 col-lg-12">
+            <h3 class="text-center" style="padding: 40px 0px 20px 0px">What we offer</h3>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-12 col-md-6 col-lg-3 ">
+            <div class="card service mb-3">
+                <i class="fas fa-utensils"></i>
+                <h4>Afforable Food</h4>
+            </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+            <div class="card service mb-3">
+                <i class="fas fa-hand-holding-heart"></i>
+                <h4>Healthy Food</h4>
+            </div>
+        </div>
+            <div class="col-12 col-md-6 col-lg-3">
+            <div class="card service mb-3">
+                <i class="fas fa-shipping-fast"></i>
+                <h4>Fast Delivery</h4>
+            </div>
+        </div>
+            <div class="col-12 col-md-6 col-lg-3">
+            <div class="card service mb-3">
+                <i class="fas fa-gift"></i>
+                <h4>Nice Packaging</h4>
+            </div>
+            </div>
+        </div>
+</div>
+</div>
+</div>
+   
+
+<div class="container" id="foodstore">
+    <div class="row">
+        <div class="col-12 col-md-12 col-lg-12">
+           <h3 class="text-center" style="padding: 50px 0px 20px 0px;">Our Food Store</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-12 col-lg-12 text-center mb-3" >
+            <a href="#" class="btn btn-outline-secondary category" data-filter="all">All</a>
+            <a href="#" class="btn btn-outline-secondary category" data-filter="cakes">Cakes</a>
+            <a href="#" class="btn btn-outline-secondary category" data-filter="cupcakes">Cupcakes</a>
+            <a href="#" class="btn btn-outline-secondary category" data-filter="sweets">Sweets</a>
+            <a href="#" class="btn btn-outline-secondary category" data-filter="doughnuts">Doughnuts</a>
+            <a href="#" class="btn btn-outline-secondary category" data-filter="lolipops">Lolipops</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-8 col-lg-6 mx-auto mb-3">
+         <div class="input-group">
+             <span type="button" class="input-group-text"><i class="fas fa-search"></i></span>
+             <input type="search" class="form-control" placeholder="Search here..." id="search-box">
+         </div>
+        </div>
+    </div>
+    <div class="row" style="margin-top: 20px;">
+        <div class="col-12 col-md-12 col-lg-12 text-center notice">
+            <h4 style="padding: 50px;">No Items Avaliable</h4>
+         </div>
+        <div class="col-12 col-md-6 col-lg-4 items sweets" data-item="sweets">
+            <div class="card">
+                <img src="sweets2.jpg">
+                <div class="card-body">
+                <h5 class="card-title">sweet items</h5>
+                <p class="card-text">1000 Ks</p>
+            </div>
+            </div>
+        </div>
+            <div class="col-12 col-md-6 col-lg-4 items doughnuts" data-item="doughnuts">
+                <div class="card">
+                    <img src="doughnuts.jfif">
+                    <div class="card-body">
+                    <h5 class="card-title">doughnuts</h5>
+                    <p class="card-text">3000 Ks</p>
+                </div>
+                </div>
+            </div>
+                <div class="col-12 col-md-6 col-lg-4 items cupcakes" data-item="cupcakes">
+                    <div class="card">
+                        <img src="ee69.jfif">
+                        <div class="card-body">
+                        <h5 class="card-title">cupcakes</h5>
+                        <p class="card-text">2500 Ks</p>
+                    </div>
+                    </div>
+                </div>
+                
+        <div class="col-12 col-md-6 col-lg-4 items lolipops" data-item="lolipops">
+            <div class="card">
+                <img src="lolipops2.jfif">
+                <div class="card-body">
+                <h5 class="card-title">lolipops</h5>
+                <p class="card-text">1000 Ks</p>
+            </div>
+            </div>
+        </div>
+            <div class="col-12 col-md-6 col-lg-4 items doughnuts" data-item="doughnuts">
+                <div class="card">
+                    <img src="doughnuts.jpg">
+                    <div class="card-body">
+                    <h5 class="card-title">doughnuts strawberry, chocolate and vanilla flavours</h5>
+                    <p class="card-text">3000 Ks</p>
+                </div>
+                </div>
+            </div>
+                <div class="col-12 col-md-6 col-lg-4 items cakes" data-item="cakes">
+                    <div class="card">
+                        <img src="cake2.jfif">
+                        <div class="card-body">
+                        <h5 class="card-title">cakes</h5>
+                        <p class="card-text">4000 Ks</p>
+                    </div>
+                    </div>
+                </div>
+    </div>
+</div>
+
+<footer class="footer">
+<div class="container">
+    
+    <div class="row mx-auto">
+        <div class="col-12 col-md-4 col-lg-4">
+            <h4>About Us</h4>
+            <a href="#">Terms & Conditions</a>
+            <br><br>
+            <a href="#">Privacy Policy</a>
+            <br><br>
+            <a href="#">About the Shop</a>
+            <br><br>
+
+        </div>
+        <div class="col-12 col-md-4 col-lg-4">
+            <h4>Customer Care</h4>
+            <a href="#">Help Center</a>
+            <br><br>
+            <a href="#">Returns & Refunds</a>
+            <br><br>
+            <a href="#">Contact Us</a>
+            <br><br>
+
+        </div>
+        <div class="col-12 col-md-4 col-lg-4">
+            <h4>Get In Touch</h4>
+            
+            <a href="#">Facebook </a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <br><br>
+            <a href="mailto:hello@krispy.com.mm">Email :hello@krispy.com.mm</a>
+            <br><br>
+            <a href="tel:09514638021">Hotline No: 09514638021</a>
+            <br><br>
+        </div>
+    </div>
+    <br>
+           <div class="col-12 col-md-12 col-lg-12 text-center">
+            <h5>&copy; Copyright 2021 by Krispy Donut Myanmar</h5>
+           </div>
+</div>
+</footer>
+</body>
+<script src="script.js"></script>
+</html>

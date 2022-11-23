@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Roboto:wght@500&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.background-image{
+    background-image: url("cupcake.jpg");
+    min-height: 470px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.card-title{
+    text-transform: capitalize;
+}
+
+.service{
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.9s;
+}
+
+.service .fas{
+font-size: 30px;
+margin-bottom: 20px;
+padding-top: 10px;
+}
+
+.service:hover{
+background-color: rgb(24, 182, 255);
+color: white;
+border: 0px;
+
+}
+
+.footer{
+    margin-top: 40px;
+    background-color: #C0D5FE;
+    padding: 40px;
+    
+    
+}
+.footer a{
+    text-decoration: none;
+}
+
+.card img{
+    height: 260px;
+}
+
+.banner h2{
+    font-family: 'Corinthia', cursive;
+    font-size: 50px;
+}
+
+.navbar-brand {
+    font-size: 23px;
+}
+
+.nav-item a{
+    font-size: 20px;
+}
+
+.card-text{
+    font-size: 20px;
+}
+
+.notice {
+    display: none;
+}
